@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scramble Words game</title>
+        <link rel="stylesheet" href="scramble.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Word Scramble</h2>
+            <div class="content">
+                <p class="word"></p>
+                <div class="details">
+                    <p class="hint">Hint: <span></span></p>
+                    <p class="time">Time Left: <span><b>30</b>s</span></p>
+                </div>
+                <input type="text" placeholder="Enter a valid word" class="typedText">
+                <div class="buttons">
+                    <button class="refresh-word">Refresh word</button>
+                    <button class="check-word">Check word</button>
+                </div>
+            </div>
+        </div>
+        <script src="jsfiles/scramble.js" defer></script>
+        <script src="jsfiles/words.js" defer></script>
+    </body>
+</html>
